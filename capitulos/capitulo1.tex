@@ -4,7 +4,7 @@
 Los antecedentes deben ser extensos pero, lo suficientemente cortos para ser entendidos por todos.
 
 \section{Imágenes}
-Las imágenes
+Las imágenes pueden ser insertadas en dos modos, varias imágenes en una sola o por separadas.
 \begin{figure}[!htb]
 	\centering
 	\begin{subfigure}[b]{0.4\textwidth}
@@ -20,3 +20,13 @@ Las imágenes
 	\caption{Varias imágenes comparadas y con un propio \textbf{caption} para cada uno}
 	\label{fig:animals}
 \end{figure}
+
+Una sola imagen insertada.
+\begin{figure}[!htb]
+	\centering
+	\includegraphics[width=0.9\textwidth]{img/ArduinoUnofront.jpg}
+	\caption{Imagen separada.}{{\footnotesize Fuente: http://arduino.cc/}}
+	\label{arqdelsistema}
+\end{figure}\\
+
+Para la bibliografías es más simple, es como de costumbre en \LaTeX, es decir, así, \cite{bernstein} \verb|\cite{bernstein}|.
