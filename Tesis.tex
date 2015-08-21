@@ -1,0 +1,247 @@
+\documentclass[12pt, twoside, final, letterpaper]{huthesis}
+%%%% Paquetes %%%%%%%%%%%%%%%%%
+\usepackage{graphicx}
+\usepackage[spanish]{babel}
+\languageshorthands{spanish}
+%\usepackage[print]{pdfscreen}
+\usepackage{ae}
+\usepackage{array}
+\usepackage{textcomp}
+\usepackage{amsmath}
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+\usepackage{amssymb}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{mathrsfs}
+\usepackage{hyperref}
+\usepackage{portada}
+\usepackage{multirow}
+\usepackage{fancyhdr}
+\usepackage{rotating}
+\usepackage{colortbl}
+\usepackage{epsfig}
+\usepackage{float}
+\usepackage{wrapfig}
+\usepackage{endnotes}
+\usepackage{color, colortbl}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{minted}
+\usepackage{lineno}
+\usepackage{mdframed}
+\usepackage{etoolbox}
+\usepackage{xparse}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage[acronym]{glossaries}
+\usepackage{apacite}
+
+%----------------------------------Declaración de colores ------------------------
+\definecolor{bg}{RGB}{230, 230, 230}		%------ color para fondo del código de apendices
+\definecolor{codebg}{rgb}{0.96,0.96,0.96}	%------ color para fondo del código en el documento
+\definecolor{halfgray}{gray}{0.95}			%------ color para fondo del subtitulo de tablas.
+\definecolor{titulo}{gray}{0.85}			%------ color para fondo del titulo de tablas.
+\definecolor{lbcolor}{rgb}{0.9,0.9,0.9}
+% para que los códigos salten de línea cuando se usa minted
+% Estilo para Minted
+\usemintedstyle{default}
+%\usemintedstyle{friendly}					%------ tema que se usa para mostrar los códigos
+
+%------------------- para compilar y mostrar el glosario
+\makeglossaries
+\glossarystyle{listgroup}
+\include{glosarioTesis}
+%-------------------------------------------------------------------------------------------------
+
+%%**** Insertar algoritmos en látex ****
+\input{spanishAlgorithmic} 				%------- archivo de traducción de algoritmos a español
+
+%%**************************************
+\newtheorem {definicion}{Definición}
+\newtheorem{teorema}{Teorema}
+\newtheorem{corolario}{Corolario}
+\newtheorem{lema}{Lema}
+\newtheorem{proposicion}{Proposición}
+\newtheorem{problema}{Problema}
+\newtheorem{ejemplo}{Ejemplo}
+\newtheorem{Cuadro}{Tabla}
+\newtheorem{remark}{Observación}
+%---------------------------------
+
+%----------------------------------
+%\hypersetup{backref=true, colorlinks=true}
+\hypersetup{
+	backref=true
+	unicode=false,
+	pdftoolbar=true,
+	pdfmenubar=true,
+	pdffitwindow=false,
+	pdfstartview={FitH},
+	pdfauthor={Jesús Fernando Merino Merino},
+	pdfnewwindow=true,
+	colorlinks=true,
+	linkcolor=black,
+	citecolor=black,
+	filecolor=black,
+	urlcolor=black,
+	linkbordercolor={0 0 0}
+}
+\spanishdecimal{.}
+\DeclareGraphicsExtensions{.pdf}
+\def\tablesp{\def\baselinestretch{1.1}\large\normalsize}
+\def\subtema{\subsubsection*}
+
+
+%\input{seppal}		% ---- Separaciones de palabras se usa en caso de ser necesario separar palabras de manera forzada
+\input{defmat}		% ---- Definiciones matemáticas
+
+%------------ Información de la Tesis
+\title{Título del tema de Tesis}	%---> Titutlo
+\author{Jesús Fernando Merino Merino}												%---> Autor
+\degreemonth{Agosto}																%---> Mes
+\degreeyear{2013}																	%---> Año
+\degree{Licenciado en Informática}													%---> Grado
+\institute{Instituto de Informática}												%---> Nombre del Instituto
+\department{Instituto de Informática}												%---> Nombre del departamento
+\university{Universidad de la Sierra Sur}											%---> Nombre universidad
+\place{Miahuatlán de Porfirio Díaz, Oaxaca, México.}								%---> Lugar
+\advisor{M.C. Director 1}{Dr. Director 2}		%---> Directores
+\titleen{Título del tema de tesis}  %---> Titutlo o subtitulo
+
+%--------------------------- Configuración de estilo del código de programas
+\lstset{frame=tb,
+	language=Java,
+	aboveskip=3mm,
+	belowskip=3mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true
+	tabsize=3
+}
+%----------------------------codigo para deetectar acentos en códigos de programas usando listings
+\lstset{literate=
+	{á}{{\'a}}1 {é}{{\'e}}1 {í}{{\'i}}1 {ó}{{\'o}}1 {ú}{{\'u}}1
+	{Á}{{\'A}}1 {É}{{\'E}}1 {Í}{{\'I}}1 {Ó}{{\'O}}1 {Ú}{{\'U}}1
+	{à}{{\`a}}1 {è}{{\`e}}1 {ì}{{\`i}}1 {ò}{{\`o}}1 {ù}{{\`u}}1
+	{À}{{\`A}}1 {È}{{\'E}}1 {Ì}{{\`I}}1 {Ò}{{\`O}}1 {Ù}{{\`U}}1
+	{ä}{{\"a}}1 {ë}{{\"e}}1 {ï}{{\"i}}1 {ö}{{\"o}}1 {ü}{{\"u}}1
+	{Ä}{{\"A}}1 {Ë}{{\"E}}1 {Ï}{{\"I}}1 {Ö}{{\"O}}1 {Ü}{{\"U}}1
+	{â}{{\^a}}1 {ê}{{\^e}}1 {î}{{\^i}}1 {ô}{{\^o}}1 {û}{{\^u}}1
+	{Â}{{\^A}}1 {Ê}{{\^E}}1 {Î}{{\^I}}1 {Ô}{{\^O}}1 {Û}{{\^U}}1
+	{?}{{\oe}}1 {?}{{\OE}}1 {æ}{{\ae}}1 {Æ}{{\AE}}1 {ß}{{\ss}}1
+	{ç}{{\c c}}1 {Ç}{{\c C}}1 {ø}{{\o}}1 {å}{{\r a}}1 {Å}{{\r A}}1
+	{?}{{\EUR}}1 {£}{{\pounds}}1
+}
+
+\lstdefinestyle{customc}{
+	captionpos=t,
+	numbersep=11pt,
+	breaklines=true,
+	frame=L,
+	xleftmargin=\parindent,
+	language=C,
+	showstringspaces=false,
+	stepnumber=1,
+	numbers=left,
+	numberstyle=\tiny\color{black},
+	basicstyle=\footnotesize\ttfamily,
+	keywordstyle=\bfseries\color{green!40!black},
+	commentstyle=\itshape\color{purple!40!black},
+	identifierstyle=\color{blue},
+	stringstyle=\color{orange},
+}
+
+\lstdefinestyle{customasm}{
+	captionpos=t,
+	frame=L,
+	xleftmargin=\parindent,
+	language=[x86masm]Assembler,
+	basicstyle=\footnotesize\ttfamily,
+	commentstyle=\itshape\color{purple!40!black},
+}
+\lstset{escapechar=@,style=customc}
+%----------------------------codigo para deetectar acentos en códigos de programas usando listings
+%----------------- Estilo de descripción del código insertado en el documento
+\newcommand{\includecode}[2][c]{\lstinputlisting[caption=#2, escapechar=, style=custom#1]{#2}}
+%\newcommand{\includecode}[2][c]{\lstinputlisting[caption=#2]{#2}}
+%\DeclareCaptionFont{white}{\color{white}} %-------> Para colorear el caption de los códigos
+%\DeclareCaptionFormat{listing}{\colorbox{gray}{\parbox{\textwidth}{#1#2#3}}} %-------> Para colorear el caption de los códigos
+%\captionsetup[lstlisting]{format=listing,labelfont=white,textfont=white} %-------> Para colorear el caption de los códigos
+%----------------- para mostrar caption de códigos en minted usando listings
+
+\begin{document}
+	%\renewcommand{\refname}{Referencias}
+	%\renewcommand{\bibname}{Bibliografía}
+    \renewcommand{\tablename}{Tabla}
+    \renewcommand{\listtablename}{Índice de tablas}
+	\renewcommand{\BOthers}[1]{et al.\hbox{}}
+	\renewcommand{\acronymname}{Acrónimos}
+	\renewcommand{\BBAA}{\&}% Letra que va entre los autores en las referencias
+	\renewcommand{\BBAB}{\&}% Entre autores en el texto
+	\renewcommand\listoflistingscaption{Índice de códigos}
+	\renewcommand\listingscaption{Código}
+	
+	\renewcommand*{\lstlistlistingname}{Índice de fragmentos de código}
+	\renewcommand\lstlistingname{Código} %esta línea modifica el formato en el que se muestra "Código 1"
+
+    \maketitle
+    \pagenumbering{roman}
+    \setcounter{page}{1}
+    \include{Presentacion}
+    \cleardoublepage
+    \include{Resumen}
+    \smallssp
+    
+    \cleardoublepage        %-------> Indice general
+    \tableofcontents
+    \addcontentsline{toc}{section}{Índice general}%
+    
+    \cleardoublepage		%-------> indice de figuras
+    \listoffigures
+    
+    \cleardoublepage		%-------> indice de tablas
+    \listoftables
+    
+    %\cleardoublepage
+    %\listoflistings 		%-------> índice de los códigos de listing que el documento contenga
+    %\addcontentsline{toc}{section}{Índice de códigos}%
+    
+    \cleardoublepage
+    \pagenumbering{arabic}
+    \include{capitulos/capitulo1} 	%-------> capitulo 1
+    \cleardoublepage
+    \include{capitulos/capitulo2} 	%-------> capitulo 2
+    \cleardoublepage
+    \include{capitulos/capitulo3}		%-------> capitulo 3
+    \cleardoublepage			
+	\include{capitulos/capitulo4} 	%-------> capitulo 4
+    \cleardoublepage
+    \include{capitulos/capitulo5} 	%-------> capitulo 5
+    
+    \appendix				%-------> se incluyen los apéndices
+    \cleardoublepage
+    \include{apendices/ApenA}
+    \cleardoublepage
+    
+    \cleardoublepage		%-------> se incluye acrónimos
+	\printglossary[type=\acronymtype]
+	\addcontentsline{toc}{chapter}{Acrónimos}
+	
+    \cleardoublepage		%-------> se incluye el glosario
+    \printglossary[title=Glosario, toctitle=Glosario]
+    \addcontentsline{toc}{chapter}{Glosario}
+    
+    \cleardoublepage		%-------> se incluye la bibliografía
+    \bibliography{bib-2015}
+    \bibliographystyle{apacite}
+    
+    
+\end{document}
