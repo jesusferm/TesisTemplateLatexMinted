@@ -1,0 +1,20 @@
+\select@language {spanish}
+\contentsline {section}{Dedicatoria}{\es@scroman {iii}}{Doc-Start}
+\contentsline {section}{Resumen}{\es@scroman {vii}}{Doc-Start}
+\contentsline {section}{Abstract}{\es@scroman {ix}}{Doc-Start}
+\contentsline {section}{Publicaciones}{\es@scroman {xi}}{Doc-Start}
+\contentsline {section}{Índice general}{\es@scroman {xiii}}{chapter*.5}
+\contentsline {section}{\'{I}ndice de figuras}{\es@scroman {xv}}{chapter*.6}
+\contentsline {section}{Índice de tablas}{\es@scroman {xvii}}{chapter*.7}
+\contentsline {chapter}{\numberline {1}Introducción}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Antecedentes}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Imágenes}{1}{section.1.2}
+\contentsline {chapter}{\numberline {2}Estudio del arte}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introducción}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}Diseño y desarrollo del tema de tesis}{5}{chapter.3}
+\contentsline {chapter}{\numberline {4}Pruebas y resultados}{7}{chapter.4}
+\contentsline {chapter}{\numberline {5}Conclusiones y trabajos futuros}{9}{chapter.5}
+\contentsline {chapter}{\numberline {A}Esta plantilla está orientada a Informática}{11}{appendix.Alph1}
+\contentsline {chapter}{Acrónimos}{13}{lstlisting.Alph1.2}
+\contentsline {chapter}{Glosario}{15}{lstlisting.Alph1.2}
+\contentsline {chapter}{Referencias}{17}{appendix*.10}

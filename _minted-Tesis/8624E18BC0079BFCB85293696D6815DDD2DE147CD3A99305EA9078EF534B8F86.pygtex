@@ -1,0 +1,12 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8}]
+\PYGdefault{c+c1}{////////////////////////////////////////////////}
+\PYGdefault{c+c1}{// Función de membresía Guassiana}
+\PYGdefault{c+c1}{//$f(x)=e^{-\alpha \frac{x - c}{\delta}^2}$}
+\PYGdefault{c+c1}{////////////////////////////////////////////////}
+
+\PYGdefault{k+kt}{double} \PYGdefault{n+nf}{gaussiana}\PYGdefault{p}{(}\PYGdefault{k+kt}{double} \PYGdefault{n}{centro}\PYGdefault{p}{,} \PYGdefault{k+kt}{double} \PYGdefault{n}{ancho}\PYGdefault{p}{,} \PYGdefault{k+kt}{double} \PYGdefault{n}{x}\PYGdefault{p}{)\PYGdefaultZob{}}
+	\PYGdefault{k+kt}{double} \PYGdefault{n}{ux}\PYGdefault{o}{=}\PYGdefault{l+m+mi}{0}\PYGdefault{p}{;}
+	\PYGdefault{n}{ux}\PYGdefault{o}{=}\PYGdefault{n}{pow}\PYGdefault{p}{(}\PYGdefault{l+m+mf}{2.718281828}\PYGdefault{p}{,} \PYGdefault{p}{(} \PYGdefault{o}{\PYGdefaultZhy{}}\PYGdefault{l+m+mf}{.5}\PYGdefault{o}{*} \PYGdefault{n}{pow}\PYGdefault{p}{(((}\PYGdefault{n}{x}\PYGdefault{o}{\PYGdefaultZhy{}}\PYGdefault{n}{centro}\PYGdefault{p}{)} \PYGdefault{o}{/} \PYGdefault{n}{ancho}\PYGdefault{p}{),} \PYGdefault{l+m+mi}{2}\PYGdefault{p}{)));}
+	\PYGdefault{k}{return} \PYGdefault{n}{ux}\PYGdefault{p}{;}
+\PYGdefault{p}{\PYGdefaultZcb{}}
+\end{Verbatim}

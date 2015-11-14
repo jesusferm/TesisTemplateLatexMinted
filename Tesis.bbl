@@ -1,0 +1,35 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Bernstein%
+, Kliegman%
+, Stanton%
+\BCBL {}\ \BBA {} Geme%
+}{%
+Bernstein%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
+}]{%
+bernstein}
+\APACinsertmetastar {%
+bernstein}%
+\begin{APACrefauthors}%
+Bernstein, D.%
+, Kliegman, R.%
+, Stanton, B.%
+\BCBL {}\ \BBA {} Geme, J\BPBI I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2011}.
+\newblock
+\APACrefbtitle {Evaluation of the cardiovascular system: history and physical
+  evaluation} {Evaluation of the cardiovascular system: history and physical
+  evaluation}\ (\PrintOrdinal{19$^a$}\ \BEd).
+\newblock
+\APACaddressPublisher{Philadelphia, Pa}{Elsevier Saunders}.
+\newblock
+\APACrefnote{chap 416}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

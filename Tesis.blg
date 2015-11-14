@@ -1,0 +1,111 @@
+This is BibTeX, Version 0.99d (TeX Live 2014)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Tesis.aux
+A level-1 auxiliary file: Presentacion.aux
+A level-1 auxiliary file: Resumen.aux
+A level-1 auxiliary file: capitulos/capitulo1.aux
+A level-1 auxiliary file: capitulos/capitulo2.aux
+A level-1 auxiliary file: capitulos/capitulo3.aux
+A level-1 auxiliary file: capitulos/capitulo4.aux
+A level-1 auxiliary file: capitulos/capitulo5.aux
+A level-1 auxiliary file: apendices/ApenA.aux
+The style file: apacite.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: bib-2015.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+Name 1 in "Bernstein, D., and Kliegman, RM., and Stanton, BF., and Geme, JW III." has a comma at the end for entry bernstein
+while executing---line 5062 of file apacite.bst
+Name 2 in "Bernstein, D., and Kliegman, RM., and Stanton, BF., and Geme, JW III." has a comma at the end for entry bernstein
+while executing---line 5062 of file apacite.bst
+Name 3 in "Bernstein, D., and Kliegman, RM., and Stanton, BF., and Geme, JW III." has a comma at the end for entry bernstein
+while executing---line 5062 of file apacite.bst
+Name 1 in "Bernstein, D., and Kliegman, RM., and Stanton, BF., and Geme, JW III." has a comma at the end for entry bernstein
+while executing---line 5066 of file apacite.bst
+Name 1 in "Bernstein, D., and Kliegman, RM., and Stanton, BF., and Geme, JW III." has a comma at the end for entry bernstein
+while executing---line 5066 of file apacite.bst
+Name 1 in "Bernstein, D., and Kliegman, RM., and Stanton, BF., and Geme, JW III." has a comma at the end for entry bernstein
+while executing---line 5068 of file apacite.bst
+Name 1 in "Bernstein, D., and Kliegman, RM., and Stanton, BF., and Geme, JW III." has a comma at the end for entry bernstein
+while executing---line 5068 of file apacite.bst
+Name 1 in "Bernstein, D., and Kliegman, RM., and Stanton, BF., and Geme, JW III." has a comma at the end for entry bernstein
+while executing---line 5072 of file apacite.bst
+Name 2 in "Bernstein, D., and Kliegman, RM., and Stanton, BF., and Geme, JW III." has a comma at the end for entry bernstein
+while executing---line 5072 of file apacite.bst
+Name 3 in "Bernstein, D., and Kliegman, RM., and Stanton, BF., and Geme, JW III." has a comma at the end for entry bernstein
+while executing---line 5072 of file apacite.bst
+Name 1 in "Bernstein, D., and Kliegman, RM., and Stanton, BF., and Geme, JW III." has a comma at the end for entry bernstein
+while executing---line 5075 of file apacite.bst
+Name 2 in "Bernstein, D., and Kliegman, RM., and Stanton, BF., and Geme, JW III." has a comma at the end for entry bernstein
+while executing---line 5075 of file apacite.bst
+Name 3 in "Bernstein, D., and Kliegman, RM., and Stanton, BF., and Geme, JW III." has a comma at the end for entry bernstein
+while executing---line 5075 of file apacite.bst
+Name 1 in "Bernstein, D., and Kliegman, RM., and Stanton, BF., and Geme, JW III." has a comma at the end for entry bernstein
+while executing---line 5076 of file apacite.bst
+Name 2 in "Bernstein, D., and Kliegman, RM., and Stanton, BF., and Geme, JW III." has a comma at the end for entry bernstein
+while executing---line 5076 of file apacite.bst
+Name 3 in "Bernstein, D., and Kliegman, RM., and Stanton, BF., and Geme, JW III." has a comma at the end for entry bernstein
+while executing---line 5076 of file apacite.bst
+Name 1 in "Bernstein, D., and Kliegman, RM., and Stanton, BF., and Geme, JW III." has a comma at the end for entry bernstein
+while executing---line 5079 of file apacite.bst
+Name 2 in "Bernstein, D., and Kliegman, RM., and Stanton, BF., and Geme, JW III." has a comma at the end for entry bernstein
+while executing---line 5079 of file apacite.bst
+Name 3 in "Bernstein, D., and Kliegman, RM., and Stanton, BF., and Geme, JW III." has a comma at the end for entry bernstein
+while executing---line 5079 of file apacite.bst
+Name 1 in "Bernstein, D., and Kliegman, RM., and Stanton, BF., and Geme, JW III." has a comma at the end for entry bernstein
+while executing---line 5079 of file apacite.bst
+Name 1 in "Bernstein, D., and Kliegman, RM., and Stanton, BF., and Geme, JW III." has a comma at the end for entry bernstein
+while executing---line 5079 of file apacite.bst
+Name 2 in "Bernstein, D., and Kliegman, RM., and Stanton, BF., and Geme, JW III." has a comma at the end for entry bernstein
+while executing---line 5079 of file apacite.bst
+Name 3 in "Bernstein, D., and Kliegman, RM., and Stanton, BF., and Geme, JW III." has a comma at the end for entry bernstein
+while executing---line 5079 of file apacite.bst
+You've used 1 entry,
+            6951 wiz_defined-function locations,
+            1284 strings with 11006 characters,
+and the built_in function-call counts, 2235 in all, are:
+= -- 257
+> -- 23
+< -- 109
++ -- 118
+- -- 2
+* -- 151
+:= -- 435
+add.period$ -- 4
+call.type$ -- 1
+change.case$ -- 17
+chr.to.int$ -- 0
+cite$ -- 2
+duplicate$ -- 69
+empty$ -- 88
+format.name$ -- 41
+if$ -- 405
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 0
+newline$ -- 33
+num.names$ -- 8
+pop$ -- 45
+preamble$ -- 1
+purify$ -- 4
+quote$ -- 0
+skip$ -- 112
+stack$ -- 0
+substring$ -- 125
+swap$ -- 42
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 80
+warning$ -- 0
+while$ -- 14
+width$ -- 0
+write$ -- 43
+(There were 23 error messages)
